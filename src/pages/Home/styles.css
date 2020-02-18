@@ -1,0 +1,154 @@
+.wrap-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.application-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 380px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.application-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.application-header .header-logo {
+  font-size: 100px;
+  color: #24292e;
+}
+
+.application-header h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.alert-error {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background-color: #fcd8dc;
+  border: 1px solid #fac0c7;
+  border-radius: 4px;
+}
+
+.alert-error p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #803239;
+}
+
+.alert-error button.close {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.close span {
+  display: block;
+  font-size: 14px;
+  color: #803239;
+  width: 20px;
+  height: 20px;
+}
+
+.application-form {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.application-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-form form label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.input-control {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.input-control:focus {
+  border: 1px solid #67b0ff;
+  box-shadow: 0 0 0 0.2rem rgba(1,123,255, 0.25);
+  outline: none;
+}
+
+.button-default {
+  display: inline-block;
+  width: 100%;
+  background-color: #017BFF;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-default:hover {
+  background-color: #0166ff;
+}
+
+.application-footer {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px 0;
+  border-top: 1px solid #d1d5da;
+}
+
+.application-footer p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.application-footer p a {
+  color: #3b77e4;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 540px) {
+  .application-header h2 {
+    font-size: 20px;
+  }
+}

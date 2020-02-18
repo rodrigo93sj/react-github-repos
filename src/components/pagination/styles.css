@@ -1,0 +1,35 @@
+.main-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
+.pagination {
+  background-color: #fff;
+  display: inline-block;
+}
+
+.pagination span {
+  display: inline-block;
+  color: #3b77e4;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 14px;
+  margin-left: -1px;
+  border: 1px solid #d1d5da;
+  cursor: pointer;
+}
+
+.pagination span[disabled] {
+  opacity: 0.3;
+  cursor: default;
+  color: #333;
+}
+
+.pagination span.active {
+  background-color: #3b77e4;
+  color: #fff;
+  border: 1px solid #3b77e4;
+}
